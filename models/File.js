@@ -17,7 +17,10 @@ const fileSchema = new mongoose.Schema(
         email:{
             type:String,
         }
-    });
+});
+
+
+
 
 //export
 module.exports = mongoose.model("user", fileSchema);
